@@ -1,0 +1,38 @@
+[info] Log at : 2024/9/3|11:10:32|GMT+0800
+
+[info] Log at : 2024/9/3|11:10:44|GMT+0800
+
+[info] Log at : 2024/9/3|11:17:54|GMT+0800
+
+[info] Log at : 2024/9/3|11:25:43|GMT+0800
+
+[SyntaxError: Expected double-quoted property name in JSON at position 2717 (line 85 column 13)
+	at JSON.parse (<anonymous>)
+	at F.updateCppProperties (c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:10911)
+	at F.<anonymous> (c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:12641)
+	at Generator.next (<anonymous>)
+	at c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:4542
+	at new Promise (<anonymous>)
+	at r (c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:4287)
+	at F.load (c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:11372)
+	at w.<anonymous> (c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:8799)
+	at Generator.next (<anonymous>)
+	at a (c:\Users\ZHC\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:4344)]
+[info] Log at : 2024/9/4|09:26:35|GMT+0800
+
+[info] Log at : 2024/9/4|09:30:32|GMT+0800
+
+[info] Log at : 2024/9/4|13:42:24|GMT+0800
+
+[info] Log at : 2024/9/4|15:44:59|GMT+0800
+
+[info] Log at : 2024/9/4|17:13:40|GMT+0800
+
+[info] Log at : 2024/9/5|09:02:52|GMT+0800
+
+[info] Log at : 2024/9/5|13:49:20|GMT+0800
+
+[info] Log at : 2024/9/5|15:39:18|GMT+0800
+
+[info] Log at : 2024/9/5|16:03:44|GMT+0800
+
