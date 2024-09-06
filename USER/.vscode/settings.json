@@ -3,6 +3,7 @@
         "stm32f10x.h": "c",
         "moto.h": "c",
         "delay.h": "c",
-        "usart.h": "c"
+        "usart.h": "c",
+        "exti.h": "c"
     }
 }

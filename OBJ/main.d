@@ -32,3 +32,4 @@
 ..\obj\main.o: delay.h
 ..\obj\main.o: usart.h
 ..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: exti.h

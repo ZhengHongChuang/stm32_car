@@ -22,7 +22,7 @@ Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
 C:\Users\ZHC\Desktop\first_pro\USER\first_pro.uvprojx
-Project File Date:  09/05/2024
+Project File Date:  09/06/2024
 
 <h2>Output:</h2>
 Rebuild target 'first'
@@ -31,6 +31,8 @@ compiling stm32f10x_usart.c...
 compiling misc.c...
 compiling stm32f10x_gpio.c...
 compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_exti.c...
 compiling system_stm32f10x.c...
 compiling delay.c...
 delay.h(12): warning:  #1-D: last line of file ends without a newline
@@ -39,26 +41,40 @@ delay.c(63): warning:  #1-D: last line of file ends without a newline
   }
 delay.c: 2 warnings, 0 errors
 compiling main.c...
-moto.h(14): warning:  #1-D: last line of file ends without a newline
+moto.h(30): warning:  #1-D: last line of file ends without a newline
   # endif
 delay.h(12): warning:  #1-D: last line of file ends without a newline
   #endif
 usart.h(8): warning:  #1-D: last line of file ends without a newline
   #endif
-main.c: 3 warnings, 0 errors
+exti.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c: 4 warnings, 0 errors
 compiling stm32f10x_it.c...
 compiling moto.c...
-moto.h(14): warning:  #1-D: last line of file ends without a newline
+moto.h(30): warning:  #1-D: last line of file ends without a newline
   # endif
-moto.c: 1 warning, 0 errors
+moto.c(64): warning:  #177-D: variable "pulse" was declared but never referenced
+      uint16_t pulse;  // 提前声明变量
+moto.c: 2 warnings, 0 errors
 compiling usart.c...
 usart.h(8): warning:  #1-D: last line of file ends without a newline
   #endif
 usart.c: 1 warning, 0 errors
+compiling exti.c...
+usart.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+moto.h(30): warning:  #1-D: last line of file ends without a newline
+  # endif
+delay.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+exti.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+exti.c: 4 warnings, 0 errors
 linking...
-Program Size: Code=1992 RO-data=268 RW-data=24 ZI-data=1024  
+Program Size: Code=3872 RO-data=268 RW-data=24 ZI-data=1024  
 FromELF: creating hex file...
-"..\OBJ\first_pro.axf" - 0 Error(s), 7 Warning(s).
+"..\OBJ\first_pro.axf" - 0 Error(s), 13 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   C:\Users\ZHC\Desktop\first_pro\USER\RTE

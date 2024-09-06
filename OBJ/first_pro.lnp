@@ -4,12 +4,15 @@
 "..\obj\misc.o"
 "..\obj\stm32f10x_gpio.o"
 "..\obj\stm32f10x_rcc.o"
+"..\obj\stm32f10x_tim.o"
+"..\obj\stm32f10x_exti.o"
 "..\obj\system_stm32f10x.o"
 "..\obj\delay.o"
 "..\obj\main.o"
 "..\obj\stm32f10x_it.o"
 "..\obj\moto.o"
 "..\obj\usart.o"
+"..\obj\exti.o"
 --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\LIST\first_pro.map" -o ..\OBJ\first_pro.axf

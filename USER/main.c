@@ -4,46 +4,38 @@
  * @Author: zhc
  * @Date: 2024-09-03 10:08:33
  * @LastEditors: zhc
- * @LastEditTime: 2024-09-05 15:57:17
+ * @LastEditTime: 2024-09-06 16:49:05
  */
 
 #include "stm32f10x.h"
 #include "moto.h"
 #include "delay.h"
 #include "usart.h"
+#include "exti.h"
+// void init(void){
+// 	Moto_Init();
+// 	Delay_Init();
+// 	USART1_Init();
+// 	PWM_Init();
+// 	my_exti_10_11_init();
+// }
 
 int main()
 {
-
+	// init();
 	Moto_Init();
-
 	Delay_Init();
-
 	USART1_Init();
-
+	// PWM_Init();
+	my_exti_10_11_init();
 	GPIO_WriteBit(GPIOB, GPIO_Pin_5, Bit_SET);
-
 	while (1)
 	{
-
-		if (GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_10) == 0)
-		{
-			printf("left:0\r\n");
-			
-		}
-		else
-		{
-			printf("left: 1\r\n");
-		}
-		delay_ms(500);
-		if (GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_11) == 0)
-		{
-			printf("right: 0\r\n");
-		}
-		else
-		{
-			printf("right:1\r\n");
-		}
-		delay_ms(500);
+		// Car_Forward_Speed(999);
+		// delay_s(2);
+		// Car_Forward_Speed(700);
+		// delay_s(2);	
+		// Car_Left_Speed(50);
+		// Car_Forward();
 	}
 }
