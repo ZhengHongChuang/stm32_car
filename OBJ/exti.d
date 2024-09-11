@@ -31,5 +31,4 @@
 ..\obj\exti.o: ..\DEVICE_LIB\inc\misc.h
 ..\obj\exti.o: usart.h
 ..\obj\exti.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\exti.o: moto.h
-..\obj\exti.o: delay.h
+..\obj\exti.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h

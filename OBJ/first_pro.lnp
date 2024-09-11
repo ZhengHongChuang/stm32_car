@@ -13,6 +13,12 @@
 "..\obj\moto.o"
 "..\obj\usart.o"
 "..\obj\exti.o"
+"..\obj\pwn.o"
+"..\obj\uw.o"
+"..\obj\sg90.o"
+"..\obj\trace.o"
+"..\obj\xunji.o"
+"..\obj\follow.o"
 --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\LIST\first_pro.map" -o ..\OBJ\first_pro.axf

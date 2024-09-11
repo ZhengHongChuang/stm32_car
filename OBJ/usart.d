@@ -30,3 +30,4 @@
 ..\obj\usart.o: ..\DEVICE_LIB\inc\stm32f10x_wwdg.h
 ..\obj\usart.o: ..\DEVICE_LIB\inc\misc.h
 ..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h

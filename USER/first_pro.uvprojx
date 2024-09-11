@@ -503,6 +503,36 @@
               <FileType>1</FileType>
               <FilePath>.\exti.c</FilePath>
             </File>
+            <File>
+              <FileName>pwn.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\pwn.c</FilePath>
+            </File>
+            <File>
+              <FileName>uw.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\uw.c</FilePath>
+            </File>
+            <File>
+              <FileName>sg90.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\sg90.c</FilePath>
+            </File>
+            <File>
+              <FileName>trace.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\trace.c</FilePath>
+            </File>
+            <File>
+              <FileName>xunji.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\xunji.c</FilePath>
+            </File>
+            <File>
+              <FileName>follow.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\follow.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

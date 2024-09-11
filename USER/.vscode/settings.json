@@ -4,6 +4,14 @@
         "moto.h": "c",
         "delay.h": "c",
         "usart.h": "c",
-        "exti.h": "c"
+        "exti.h": "c",
+        "string.h": "c",
+        "trace.h": "c",
+        "uw.h": "c",
+        "sg90.h": "c",
+        "xunji.h": "c",
+        "stdio.h": "c",
+        "string": "c",
+        "follow.h": "c"
     }
 }

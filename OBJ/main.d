@@ -32,4 +32,11 @@
 ..\obj\main.o: delay.h
 ..\obj\main.o: usart.h
 ..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\main.o: exti.h
+..\obj\main.o: pwn.h
+..\obj\main.o: uw.h
+..\obj\main.o: sg90.h
+..\obj\main.o: trace.h
+..\obj\main.o: xunji.h
+..\obj\main.o: follow.h

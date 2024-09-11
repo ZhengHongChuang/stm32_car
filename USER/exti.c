@@ -1,5 +1,13 @@
+/*
+ * @Descripttion: Leetcode_code
+ * @version: 1.0
+ * @Author: zhc
+ * @Date: 2024-09-06 09:45:20
+ * @LastEditors: zhc
+ * @LastEditTime: 2024-09-11 10:26:24
+ */
 #include "exti.h"
-
+// u8 modeType = 0;
 void my_exti_10_11_init(void)
 {
 	
@@ -43,50 +51,16 @@ void my_exti_10_11_init(void)
 	
 }
 
-void USART1_IRQHandler(void)
-{
-	uint16_t data;
-	if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET)
-	{
-		// 接收数据
-		data = USART_ReceiveData(USART1);
-		printf("data = %c\n", data);
-		switch (data)
-		{
-		case 'G':
-			// 前进
-			Car_Forward_Speed(900);
-			break;
-		case 'H':
-			// 左边
-			Car_Left_Speed(900);
-			break;
-		case 'J':
-			// 右边
-			Car_Right_Speed(900);
-			break;
-		case 'K':
-			// 后退
-			Car_Back_Speed(900);
-			break;
-		case 'I':
-			// 停止
-			Car_Stop();
-			break;
 
-		default:
-			break;
-		}
-		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
-	}
-}
 
+
+//中断服务函数
 void EXTI15_10_IRQHandler(void)
 {
     if(EXTI_GetITStatus(EXTI_Line10) == SET)
     {
         // 左边
-        printf("左边\n");
+        // printf("左边\n");
 		// Car_Left_Speed(900);
        
         EXTI_ClearITPendingBit(EXTI_Line10);
@@ -95,9 +69,8 @@ void EXTI15_10_IRQHandler(void)
     if(EXTI_GetITStatus(EXTI_Line11) == SET)
     {
         // 右边
-        printf("右边");
-        while (USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET);  // 等待传输完成
-        // Car_Right_Speed(900);
+        // printf("右边");
+        
 		EXTI_ClearITPendingBit(EXTI_Line11);
     }
 }

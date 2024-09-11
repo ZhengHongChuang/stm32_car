@@ -12,19 +12,19 @@
 
 # include "stm32f10x.h"
 
-void Moto_Init(void);
-void Car_Forward(void);
-void Car_Back(void);
-void Car_Left(void);
-void Car_Right(void);
-void Car_Stop(void);
+// void Moto_Init(void);
+// void Car_Forward(void);
+// void Car_Back(void);
+// void Car_Left(void);
+// void Car_Right(void);
+// void Car_Stop(void);
 
 
-void PWM_Init(void);
+// void PWM_Init(void);
 void Car_Forward_Speed(uint16_t speed);
 void Car_Back_Speed(uint16_t speed);
 void Car_Left_Speed(uint16_t speed);
 void Car_Right_Speed(uint16_t speed);
-void Car_Stop_Speed(void);
+void Car_Stop(void);
 
 # endif
